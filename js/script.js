@@ -1,5 +1,5 @@
 const apiKey = "d8d0b11c53a04d61b33144534252404";
-const baseUrl = "http://api.weatherapi.com/v1";
+const baseUrl = "https://api.weatherapi.com/v1";
 const forecastContainer = document.getElementById("forecast");
 const input = document.querySelector(".search-bar input");
 const button = document.querySelector(".search-bar button");
