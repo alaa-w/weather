@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+ 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="images/logo@2x.png" alt="Logo" class="me-2" width="48"/>
+        <div>
+          <div class="text-white fw-bold">Weather</div>
+          <small class="text-light">tagline goes here</small>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Live cameras</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Photos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <div class="home">
+    <div class="search-bar text-center mb-5">
+      <input
+        type="text"
+        class="form-control d-inline-block w-50 rounded-pill px-4 py-2 mt-5"
+        placeholder="Find your location..."
+      />
+      <button class="btn btn-primary rounded-pill px-4 ms-2">Find</button>
+    </div>
+<img src="" alt="">
+    <!-- Weather Cards Container -->
+    <div id="forecast" class="containercard d-flex justify-content-center w-75 m-auto"></div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/script.js"></script>
+</body>
+</html>

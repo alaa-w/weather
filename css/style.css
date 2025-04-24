@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    overflow-x: hidden;
+    background: #1e202a;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .home {
+  
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: fixed;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+  .container_nav {
+    gap: 35%;
+    background-color: #1e202a;
+    color: aliceblue;
+    padding: 40px;
+  }
+  
+  .logo img {
+    width: 80px;
+  }
+  
+  .navbar-nav {
+    font-size: 20px;
+    color: aliceblue;
+  }
+  
+  .navbar-nav a {
+    color: aliceblue;
+  }
+  
+  
+
+ 
+  
+  
+  .containercard {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    gap: 0;                  
+    width: 100%; 
+  }
+  
+  .containercard .card {
+    width: 300px;
+    margin-top: 100px;
+    margin-right: 0;          
+    border-radius: 10px;
+  }
+
+
+  .containercard {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; 
+    gap: 0;
+    width: 100%;
+    flex-wrap: wrap; 
+  }
+  
+  .forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 0; 
+    font-size: larger;
+  }
+  
+  .forecast-header {
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .smallicon{
+    font-size: 15px;
+
+  }
+  .smallicon img{
+width: 15px;  
+margin: 10px;
+
+  }
